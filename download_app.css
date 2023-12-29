@@ -47,9 +47,9 @@ html,body{
     height: 20rem;
     display: grid;
     grid-template-areas: 
-    'appl cover_img'
-    'inf cover_img'
-    'dwnld_btn cover_img';
+    'appl cvr_img'
+    'inf cvr_img'
+    'dwnld_btn cvr_img';
     grid-template-rows: 18% 60% 20%;
     grid-template-columns: 52% 48%;
     text-align: start;
@@ -99,7 +99,7 @@ html,body{
     border-radius: 1.25rem;
     background: url(crp_advrts.png) no-repeat;
     background-size: cover;
-    grid-area: cover_img;
+    grid-area: cvr_img;
     transform: scaleY(0.88);
 }
 
@@ -133,13 +133,14 @@ html,body{
     #dwnld_app_holder{
         width: 85vw;
         height: 105vw;
+        margin: 5vw auto;
     }
     #dwnld_app_container{
         margin:0;
         width: 85vw;
         height: 105vw;
         padding: 4vw;
-        grid-template-rows: 17% 70%;
+        grid-template-rows: 18% 72%;
     }
     #try{
         width: 22vw;
@@ -148,8 +149,8 @@ html,body{
     }
     #caps{
         width: 75vw;
-        height: 18vw;
-        grid-template-rows:32% 60%;
+        height: 19vw;
+        grid-template-rows:38% 56%;
         grid-template-columns: 95%;
     }
     #dwnld_app_container h1, #mbl{
@@ -183,4 +184,5 @@ html,body{
     }
 
 }
+
 
